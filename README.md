@@ -8,3 +8,6 @@ sudo usermod -a -G docker ec2-user<br>
 一度EC2からログアウト、再度SSH接続する<br>
 <br>
 docker info<br>
+<br>
+docker pull httpd<br>
+<br>
