@@ -1,4 +1,8 @@
 # ec2_-docker
+sudo yum clean all<br>
+<br>
+sudo yum update -y<br>
+<br>
 sudo amazon-linux-extras install docker <br>
 <br>
 sudo service docker start<br>
