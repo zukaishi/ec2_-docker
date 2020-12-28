@@ -13,5 +13,5 @@ sudo usermod -a -G docker ec2-user<br>
 <br>
 docker info<br>
 <br>
-docker pull httpd<br>
+docker login<br>
 <br>
