@@ -34,3 +34,7 @@ docker run -d -p 8080:80 dockerdemo:latest<br>
 docker container ls<br>
 docker container ps<br>
 docker container stop [CONTAINER ID]<br>
+<br>
+https://[ip address]:8080<br>
+これで繋がるはずなんだけど、、、。<br>
+<br>
