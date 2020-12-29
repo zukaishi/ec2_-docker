@@ -16,11 +16,24 @@ docker info<br>
 docker login<br>
 <br>
 touch index.html<br>
+```
+hello
+```
+
 touch dockerfile<br>
 <br>
 
+```
+FROM centos:latest  
+RUN yum install -y httpd
+COPY ./index.html /var/www/html/index.html
+EXPOSE 80 443
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
+```
 docker image build -t dockerdemo ./<br>
 docker image ls<br>
+vim dockerfile<br>
 docker run -d -p 8080:80 dockerdemo:latest<br>
 docker container ls<br>
 docker container ps<br>
+docker container stop [CONTAINER ID]<br>
