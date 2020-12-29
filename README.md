@@ -21,8 +21,6 @@ hello
 ```
 
 vim dockerfile<br>
-<br>
-
 ```
 FROM centos:latest  
 RUN yum install -y httpd
