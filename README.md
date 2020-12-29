@@ -15,12 +15,12 @@ docker info<br>
 <br>
 docker login<br>
 <br>
-touch index.html<br>
+vim index.html<br>
 ```
 hello
 ```
 
-touch dockerfile<br>
+vim dockerfile<br>
 <br>
 
 ```
@@ -32,7 +32,6 @@ CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 ```
 docker image build -t dockerdemo ./<br>
 docker image ls<br>
-vim dockerfile<br>
 docker run -d -p 8080:80 dockerdemo:latest<br>
 docker container ls<br>
 docker container ps<br>
