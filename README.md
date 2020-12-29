@@ -15,3 +15,12 @@ docker info<br>
 <br>
 docker login<br>
 <br>
+touch index.html<br>
+touch dockerfile<br>
+<br>
+
+docker image build -t dockerdemo ./<br>
+docker image ls<br>
+docker run -d -p 8080:80 dockerdemo:latest<br>
+docker container ls<br>
+docker container ps<br>
