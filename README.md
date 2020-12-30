@@ -1,3 +1,6 @@
+# 作業環境を用意
+https://github.com/zukaishi/terraform/tree/main/workspace
+
 # ec2_-docker
 sudo yum clean all<br>
 <br>
@@ -31,10 +34,8 @@ CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 docker image build -t dockerdemo ./<br>
 docker image ls<br>
 docker run -d -p 8080:80 dockerdemo:latest<br>
+<br>
+https://[ip address]:8080<br>
 docker container ls<br>
 docker container ps<br>
 docker container stop [CONTAINER ID]<br>
-<br>
-https://[ip address]:8080<br>
-これで繋がるはずなんだけど、、、。<br>
-<br>
