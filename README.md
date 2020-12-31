@@ -35,7 +35,14 @@ docker image build -t dockerdemo ./<br>
 docker image ls<br>
 docker run -d -p 8080:80 dockerdemo:latest<br>
 <br>
-https://[ip address]:8080<br>
+ブラウザアクセス<br>
+https://[_ip address_]:8080<br>
+<br>
+docker network ls<br>
+docker network inspect bridge<br>
+<br>
 docker container ls<br>
+docker container inspect [_container_id]
 docker container ps<br>
+<br>
 docker container stop [CONTAINER ID]<br>
